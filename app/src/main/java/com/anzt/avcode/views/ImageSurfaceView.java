@@ -21,7 +21,6 @@ public class ImageSurfaceView extends SurfaceView implements SurfaceHolder.Callb
 
     private SurfaceHolder surfaceHolder;
     private Paint paint;
-    private Rect rect;
     private Bitmap bitmap;
 
     public ImageSurfaceView(Context context) {
