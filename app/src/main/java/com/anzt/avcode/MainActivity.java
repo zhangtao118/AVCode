@@ -12,4 +12,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public MainActivity() {
+        super();
+    }
+
+    @Override
+    public void setTheme(int resid) {
+        super.setTheme(resid);
+    }
 }
